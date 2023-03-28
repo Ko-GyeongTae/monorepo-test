@@ -1,0 +1,12 @@
+# reviewer 자동 지정 여부
+addReviewers: true
+
+# assignee 자동 지정 여부
+addAssignees: author
+
+# sub-reviewer 목록 (Github username)
+reviewers:
+
+# PR에 자동으로 지정될 reviewer 수
+# 0으로 설정 시 위에 기재된 모든 reviewer가 지정됩니다.
+numberOfReviewers: 0
