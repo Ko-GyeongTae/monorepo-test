@@ -1,0 +1,16 @@
+{
+  "name": "monorepo",
+  "version": "0.0.1",
+  "description": "monorepo test",
+  "main": "index.js",
+  "repository": "https://github.com/Ko-GyeongTae/monorepo-test",
+  "author": "Ko-GyeongTae",
+  "license": "MIT",
+  "packageManager": "yarn@3.4.1",
+  "workspaces": [
+    "apps/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
