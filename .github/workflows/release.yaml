@@ -1,0 +1,16 @@
+name: release
+
+on:
+  release:
+    types: [published]
+  label:
+    types:
+      - "created"
+
+jobs:
+  build:
+    runs-on: ["self-hosted", "linux"]
+    steps:
+      - name: TEST
+        run: |
+          echo "TEST"
